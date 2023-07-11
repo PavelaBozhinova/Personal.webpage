@@ -1,0 +1,217 @@
+:root{
+
+    --box-shadow:0 1rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration: none;
+    transition: all .2s linear;
+
+}
+
+header{
+    position:absolute;
+    top:0; left:0; right:0; bottom: 620px;
+    background: plum;    
+    padding-left:10px;
+    display: flex;
+    box-shadow: var(--box-shadow);
+    color: white;
+}
+
+header .logo {
+padding-left: 100px;
+}
+
+
+header .navbar a {
+    justify-content: flex-end;
+    font-size: 1.7rem;
+    border-radius: 5rem;
+    padding: .5rem 1.5rem ;
+    color: var(--light-color);
+    
+}
+
+header .navbar a.active,
+header .navbar a:hover {
+    color: plum;
+    background: rgb(255, 255, 255);
+
+}
+
+
+nav{
+    display:flexbox;
+    width: 75%;
+    margin: auto;
+    margin-left: 600px;
+    margin-right: 10px;
+
+}
+
+body {
+    background-image: url("img/clouds.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.info{
+    background-color: transparent;
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.info h1,
+.hobbies h1{
+    color: rgb(117, 124, 184);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.info h2{
+    color: plum;
+    font-size: 18px;
+    font-weight: 350;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 45px;
+   
+}
+.info p,
+.hobbies p,
+.hobbies2 p,
+.hobbies3 p{
+    color:rgb(161, 158, 158);
+    line-height: 10px; 
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info a,
+.textme input {
+    background: rgb(184, 189, 229);
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5rem;
+    border-color: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#email::placeholder,
+#bio::placeholder{
+    color: white;
+    font-weight: 600;
+}
+#bio, #email {
+    background: rgb(231, 216, 246);
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    border-radius: .5rem;
+    border-color: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.info ul,
+.textme label{
+    color:rgb(161, 158, 158);
+    line-height: 10px; 
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.textme,
+.hobbies{
+    background-color: transparent;
+    width: 45%;
+    height: 74%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    
+}
+.hobbies2{
+    background-color: transparent;
+    width: 27%;
+    height: 66%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.hobbies3{
+    background-color: transparent;
+    width: 10%;
+    height: 66%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0;
+    top: 0;
+    transform: translateX(-40%);
+}
+.me {
+    border: 10px outset rgb(198, 198, 198); 
+    
+  }
+.guitar,
+.drawing,
+.gaming,
+.music,
+.travel,
+.photography{
+    width: 140px;
+    height: 140px;border: 5px outset rgb(198, 198, 198); 
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ecf0f1;
+    padding: 10px;
+    text-align:center;
+    color: rgb(156, 92, 138);
+    font-weight: 600;
+    font-size: 15px;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1);
+   
+  }
+  footer img{
+    margin-right: 15px;
+  }
+footer p{
+    text-align:left;
+}
+footer div{
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: right;
+}
+.creds{
+    text-align: right;
+    color: #666;
+    margin-left: 1100px;
+    font-size: 12px;
+    font-weight: 300;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
